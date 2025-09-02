@@ -7,7 +7,7 @@
             <el-col :span="12">
                 <div class="info">
                     <p>{{ profile.name }}</p>
-                    <p style="font-size: 1rem;">{{ profile.school }}</p>
+                    <p style="font-size: 1rem; margin-top: 0.5rem;">{{ profile.school }}</p>
                     <p style="font-size: 1rem;">{{ profile.major }}</p>
                     <p style="font-size: 1rem;">愛好：</p>
                     <div class="tags">
@@ -59,12 +59,14 @@ const girlImg = "/images/girl.jpg"
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+
 }
 
 .tags {
     width: 100%;
     display: flex;
-    gap: 2%;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
 }
 </style>

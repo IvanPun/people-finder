@@ -62,7 +62,7 @@ const handleInput = (val) => {
 
 .background-img {
   position: absolute;
-  top: 10vh;
+  top: 15vh;
   left: 0;
   width: 100%;
   display: flex;
