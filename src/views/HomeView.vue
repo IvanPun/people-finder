@@ -38,12 +38,10 @@ const handleInput = (val) => {
   width: 100%;
   height: 100%;
 
-
   /* 背景圖片 */
   /* background: url('@/assets/images/background.jpg') no-repeat center center, linear-gradient(#90A15B, #C0B099);
   background-size: contain;
   background-color: transparent; */
-  background: linear-gradient(#90A15B, #C0B099);
 
   display: flex;
   flex-direction: column;
@@ -58,11 +56,11 @@ const handleInput = (val) => {
 /* 半透明白色遮罩 */
 .main::before {
   content: "";
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-color: rgba(255, 255, 255, 0.6);
   z-index: 5;
 }
