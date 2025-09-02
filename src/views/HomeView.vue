@@ -58,16 +58,16 @@ watch(searching, (newVal) => {
 }
 
 /* 半透明白色遮罩 */
-.main::before {
+/* .main::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: rgba(255, 255, 255, 0.6);
   z-index: 5;
-}
+} */
 
 .background-img {
   position: fixed;
