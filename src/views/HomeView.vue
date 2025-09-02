@@ -36,7 +36,7 @@ const handleInput = (val) => {
 .main {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
 
 
   /* 背景圖片 */
