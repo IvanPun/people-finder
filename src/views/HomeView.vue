@@ -1,5 +1,5 @@
 <template>
-  <div class="main" :class="searching? 'bottom-blank' : ''">
+  <div class="main" :class="searching? 'bottom-blank' : 'disScroll'">
     <div class="background-img">
       <img src="@/assets/images/background.jpg" alt="background" />
     </div>
@@ -46,6 +46,10 @@ const handleInput = (val) => {
   flex-direction: column;
   align-items: center;
 
+}
+
+.disScroll{
+  overflow: hidden;
 }
 
 .bottom-blank{
