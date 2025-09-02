@@ -1,6 +1,6 @@
 <template>
-  <div class="main">
-    <div class="background-img" v-if="!searching">
+  <div class="main" :class="searching? 'bottom-blank' : ''">
+    <div class="background-img">
       <img src="@/assets/images/background.jpg" alt="background" />
     </div>
 
@@ -34,7 +34,7 @@ const handleInput = (val) => {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  padding: 5vh;
+  
 
   /* 背景圖片 */
   /* background: url('@/assets/images/background.jpg') no-repeat center center, linear-gradient(#90A15B, #C0B099);
@@ -46,6 +46,10 @@ const handleInput = (val) => {
   flex-direction: column;
   align-items: center;
 
+}
+
+.bottom-blank{
+  padding-bottom: 5vh;
 }
 
 /* 半透明白色遮罩 */
@@ -61,8 +65,8 @@ const handleInput = (val) => {
 }
 
 .background-img {
-  position: absolute;
-  top: 15vh;
+  position: fixed;
+  top: 0;
   left: 0;
   width: 100%;
   display: flex;
@@ -84,5 +88,6 @@ const handleInput = (val) => {
 .search-box {
   display: flex;
   justify-content: center;
+  margin-top: 5vh;
 }
 </style>
