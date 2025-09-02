@@ -1,5 +1,5 @@
 <template>
-  <div class="main" :class="searching? 'bottom-blank' : 'disScroll'">
+  <div class="main" :class="searching? 'bottom-blank' : ''">
     <div class="background-img">
       <img src="@/assets/images/background.jpg" alt="background" />
     </div>
@@ -19,7 +19,7 @@
 <script setup>
 import ResultArea from '@/components/ResultArea.vue';
 import search from '@/components/search.vue';
-import { ref } from 'vue';
+import { ref, watch } from 'vue';
 
 const searching = ref(false);
 
@@ -27,6 +27,11 @@ const keyword = ref('')
 const handleInput = (val) => {
   searching.value = val ? true : false
 }
+
+// 當 searching 改變時，控制 body 滾動
+watch(searching, (newVal) => {
+  document.body.style.overflowY = newVal ? 'auto' : 'hidden';
+})
 </script>
 
 <style scoped>
@@ -46,10 +51,6 @@ const handleInput = (val) => {
   flex-direction: column;
   align-items: center;
 
-}
-
-.disScroll{
-  overflow: hidden;
 }
 
 .bottom-blank{
