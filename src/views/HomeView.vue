@@ -1,16 +1,19 @@
 <template>
-  <div class="main" :class="searching? 'bottom-blank' : ''">
+  <div class="main" :class="searching ? 'bottom-blank' : ''">
     <div class="background-img">
       <img src="@/assets/images/background.jpg" alt="background" />
     </div>
 
-    <div class="main-body">
-      <div class="search-box">
-        <search v-model="keyword" @change="handleInput"></search>
+    <div class="scroll-wrapper" :class="{ 'no-scroll': !searching }">
+      <div class="main-body">
+        <div class="search-box">
+          <search v-model="keyword" @change="handleInput"></search>
 
+        </div>
+        <ResultArea v-if="searching" :keyword="keyword"></ResultArea>
       </div>
-      <ResultArea v-if="searching" :keyword="keyword"></ResultArea>
     </div>
+
 
 
   </div>
@@ -19,7 +22,7 @@
 <script setup>
 import ResultArea from '@/components/ResultArea.vue';
 import search from '@/components/search.vue';
-import { ref, watch } from 'vue';
+import { ref } from 'vue';
 
 const searching = ref(false);
 
@@ -27,11 +30,6 @@ const keyword = ref('')
 const handleInput = (val) => {
   searching.value = val ? true : false
 }
-
-// 當 searching 改變時，控制 body 滾動
-watch(searching, (newVal) => {
-  document.body.style.overflowY = newVal ? 'auto' : 'hidden';
-})
 </script>
 
 <style scoped>
@@ -39,7 +37,7 @@ watch(searching, (newVal) => {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  
+
 
   /* 背景圖片 */
   /* background: url('@/assets/images/background.jpg') no-repeat center center, linear-gradient(#90A15B, #C0B099);
@@ -53,12 +51,12 @@ watch(searching, (newVal) => {
 
 }
 
-.bottom-blank{
+.bottom-blank {
   padding-bottom: 5vh;
 }
 
 /* 半透明白色遮罩 */
-/* .main::before {
+.main::before {
   content: "";
   position: absolute;
   top: 0;
@@ -67,7 +65,7 @@ watch(searching, (newVal) => {
   height: 100%;
   background-color: rgba(255, 255, 255, 0.6);
   z-index: 5;
-} */
+}
 
 .background-img {
   position: fixed;
@@ -84,6 +82,18 @@ watch(searching, (newVal) => {
   height: auto;
   display: block;
 }
+
+.scroll-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;  /* 默認可滾動 */
+}
+
+.scroll-wrapper.no-scroll {
+  overflow: hidden;   /* 禁止滾動 */
+  touch-action: none; /* iOS防止手勢滾動 */
+}
+
 
 .main-body {
   position: relative;
