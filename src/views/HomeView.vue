@@ -4,7 +4,7 @@
       <img src="@/assets/images/background.jpg" alt="background" />
     </div>
 
-    <div class="scroll-wrapper" :class="{ 'no-scroll': !searching }">
+    <!-- <div class="scroll-wrapper" :class="{ 'no-scroll': !searching }"> -->
       <div class="main-body">
         <div class="search-box">
           <search v-model="keyword" @change="handleInput"></search>
@@ -12,7 +12,7 @@
         </div>
         <ResultArea v-if="searching" :keyword="keyword"></ResultArea>
       </div>
-    </div>
+    <!-- </div> -->
 
 
 
