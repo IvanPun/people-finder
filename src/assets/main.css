@@ -20,5 +20,12 @@ a,
   }
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
 
+html, body {
+  scrollbar-width: none;   /* 隱藏滾動條 */
+  -ms-overflow-style: none; /* 適用 IE/Edge 舊版 */
+}
 
