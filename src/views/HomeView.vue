@@ -1,11 +1,11 @@
 <template>
-  <div class="main" :class="searching ? 'bottom-blank' : ''">
+  <div class="main" >
     <div class="background-img">
       <img src="@/assets/images/background.jpg" alt="background" />
     </div>
 
     <!-- <div class="scroll-wrapper" :class="{ 'no-scroll': !searching }"> -->
-      <div class="main-body">
+      <div class="main-body" :class="searching ? 'bottom-blank' : ''">
         <div class="search-box">
           <search v-model="keyword" @change="handleInput"></search>
 
@@ -13,8 +13,6 @@
         <ResultArea v-if="searching" :keyword="keyword"></ResultArea>
       </div>
     <!-- </div> -->
-
-
 
   </div>
 </template>

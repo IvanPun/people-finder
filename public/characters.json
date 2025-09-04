@@ -1,23 +1,557 @@
 [
   {
-    "name": "潘卓言",
+    "name": "陳璟朗",
     "gender": "男",
-    "school": "上海交通大學",
-    "major": "計算機科學",
-    "hobbies": ["編程", "籃球"]
+    "school": "復旦大學",
+    "major": "金融科技",
+    "hobbies": [
+      "試食不同野食"
+    ]
   },
   {
-    "name": "李小美",
+    "name": "蔡嘉欣",
     "gender": "女",
     "school": "復旦大學",
-    "major": "心理學",
-    "hobbies": ["閱讀", "旅行", "畫畫"]
+    "major": "英文",
+    "hobbies": [
+      "跳舞", "旅行"
+    ]
   },
   {
-    "name": "王強",
+    "name": "吴彬",
+    "gender": "女",
+    "school": "復旦大學",
+    "major": "公共管理",
+    "hobbies": [
+      "無"
+    ]
+  },
+  {
+    "name": "蘇英章",
     "gender": "男",
     "school": "同濟大學",
-    "major": "建築學",
-    "hobbies": ["設計", "攝影", "健身"]
+    "major": "計算機科學與技術",
+    "hobbies": [
+      "機械人"
+    ]
+  },
+  {
+    "name": "施俊宇",
+    "gender": "男",
+    "school": "上海體育大學",
+    "major": "體育經濟與管理",
+    "hobbies": [
+      "運動",
+      "聽歌"
+    ]
+  },
+  {
+    "name": "邱采宜",
+    "gender": "女",
+    "school": "上海體育大學",
+    "major": "運動康復",
+    "hobbies": [
+      "户外運動"
+    ]
+  },
+  {
+    "name": "江宇軒",
+    "gender": "男",
+    "school": "上海體育大學",
+    "major": "體育教育",
+    "hobbies": [
+      "渣車"
+    ]
+  },
+  {
+    "name": "宋林萱",
+    "gender": "女",
+    "school": "華東師範大學",
+    "major": "聽力及言語康復學",
+    "hobbies": [
+      "畫畫"
+    ]
+  },
+  {
+    "name": "陳允盛",
+    "gender": "男",
+    "school": "華東師範大學",
+    "major": "數學與應用數學",
+    "hobbies": [
+      "打機"
+    ]
+  },
+  {
+    "name": "梁芷晴",
+    "gender": "女",
+    "school": "華東師範大學",
+    "major": "心理學",
+    "hobbies": [
+      "打籃球", "打麻雀"
+    ]
+  },
+  {
+    "name": "高文軒",
+    "gender": "男",
+    "school": "華東師範大學",
+    "major": "生物科學系",
+    "hobbies": [
+      "唱歌",
+      "打波"
+    ]
+  },
+  {
+    "name": "楊曉亨",
+    "gender": "男",
+    "school": "華東師範大學",
+    "major": "數學與應用數學",
+    "hobbies": [
+      "唱歌",
+      "乒乓球"
+    ]
+  },
+  {
+    "name": "胡耀庭",
+    "gender": "男",
+    "school": "華東師範大學",
+    "major": "物理學",
+    "hobbies": [
+      "唱歌"
+    ]
+  },
+  {
+    "name": "馮俊曦",
+    "gender": "男",
+    "school": "華東師範大學",
+    "major": "數學與應用數學",
+    "hobbies": [
+      "跑步"
+    ]
+  },
+  {
+    "name": "潘卓言",
+    "gender": "男",
+    "school": "華東師範大學",
+    "major": "軟件工程",
+    "hobbies": [
+      "攝影", "打王者"
+    ]
+  },
+  {
+    "name": "石詠怡",
+    "gender": "女",
+    "school": "華東師範大學",
+    "major": "特殊教育",
+    "hobbies": [
+      "旅行", "聽歌"
+    ]
+  },
+  {
+    "name": "湯可蓓",
+    "gender": "女",
+    "school": "華東師範大學",
+    "major": "教育康復",
+    "hobbies": [
+      "玩遊戲"
+    ]
+  },
+  {
+    "name": "李彦泓",
+    "gender": "男",
+    "school": "華東師範大學",
+    "major": "歷史",
+    "hobbies": [
+      "博弈",
+      "聽唱歌"
+    ]
+  },
+  {
+    "name": "陳曉穎",
+    "gender": "男",
+    "school": "華東師範大學",
+    "major": "經濟學",
+    "hobbies": [
+      "0"
+    ]
+  },
+  {
+    "name": "胡梓榮",
+    "gender": "男",
+    "school": "華東師範大學",
+    "major": "應用心理系",
+    "hobbies": [
+      "Edmond", "東城", "Jimmy sir", "Jeremy", "Benny"
+    ]
+  },
+  {
+    "name": "李鎧晟",
+    "gender": "男",
+    "school": "上海財經大學",
+    "major": "投資",
+    "hobbies": [
+      "籃球", "健身"
+    ]
+  },
+  {
+    "name": "陳宇康",
+    "gender": "男",
+    "school": "上海財經大學",
+    "major": "國際經濟與貿易",
+    "hobbies": [
+      "籃球", "健身"
+    ]
+  },
+  {
+    "name": "陳謙穎",
+    "gender": "女",
+    "school": "上海財經大學",
+    "major": "財政",
+    "hobbies": [
+      "唱歌", "看電影"
+    ]
+  },
+  {
+    "name": "談昀磬",
+    "gender": "女",
+    "school": "上海師範大學",
+    "major": "廣播電視學",
+    "hobbies": [
+      "畫畫",
+      "探店"
+    ]
+  },
+  {
+    "name": "黃琬澄",
+    "gender": "女",
+    "school": "上海交通大學",
+    "major": "臨床醫學（英語班）",
+    "hobbies": [
+      "彈琴拉琴"
+    ]
+  },
+  {
+    "name": "黃祈樂",
+    "gender": "男",
+    "school": "上海交通大學",
+    "major": "電子信息類(密西根學院)",
+    "hobbies": [
+      "乒乓球"
+    ]
+  },
+  {
+    "name": "梁藝琳",
+    "gender": "女",
+    "school": "上海交通大學",
+    "major": "臨床醫學",
+    "hobbies": [
+      "羽毛球", "烘焙"
+    ]
+  },
+  {
+    "name": "林冠璘",
+    "gender": "男",
+    "school": "上海交通大學",
+    "major": "臨床醫學五年制-英文版",
+    "hobbies": [
+      "運動",
+      "辯論"
+    ]
+  },
+  {
+    "name": "吳灝謙",
+    "gender": "男",
+    "school": "上海交通大學",
+    "major": "機械工程",
+    "hobbies": [
+      "打籃球", "彈琴"
+    ]
+  },
+  {
+    "name": "蔡海鋒",
+    "gender": "男",
+    "school": "上海交通大學",
+    "major": "口腔醫學",
+    "hobbies": [
+      "排球",
+      "唱歌"
+    ]
+  },
+  {
+    "name": "趙振曦",
+    "gender": "男",
+    "school": "上海交通大學",
+    "major": "電子訊息",
+    "hobbies": [
+      "看電影",
+      "乒乓球",
+      "羽毛球"
+    ]
+  },
+  {
+    "name": "陳芷晴",
+    "gender": "女",
+    "school": "上海交通大學",
+    "major": "臨床醫學",
+    "hobbies": [
+      "畫畫"
+    ]
+  },
+  {
+    "name": "陳鈞蕙",
+    "gender": "女",
+    "school": "上海交通大學",
+    "major": "臨床醫學（英文班）",
+    "hobbies": [
+      "唱歌",
+      "壁球"
+    ]
+  },
+  {
+    "name": "梁洛瑤",
+    "gender": "女",
+    "school": "上海交通大學",
+    "major": "臨床醫學五年制（英語班）",
+    "hobbies": [
+      "識新朋友"
+    ]
+  },
+  {
+    "name": "陳曉曈",
+    "gender": "女",
+    "school": "上海交通大學",
+    "major": "廣播電視編導",
+    "hobbies": [
+      "看電影", "唱歌"
+    ]
+  },
+  {
+    "name": "關桌麗",
+    "gender": "女",
+    "school": "上海交通大學",
+    "major": "藥學",
+    "hobbies": [
+      "追劇", "聽歌"
+    ]
+  },
+  {
+    "name": "黃振峰",
+    "gender": "男",
+    "school": "上海交通大學",
+    "major": "機械工程",
+    "hobbies": [
+      "乒乓波"
+    ]
+  },
+  {
+    "name": "陳凱琳",
+    "gender": "女",
+    "school": "上海交通大學",
+    "major": "臨床醫學",
+    "hobbies": [
+      "挽"
+    ]
+  },
+  {
+    "name": "郭熙朗",
+    "gender": "男",
+    "school": "上海交通大學",
+    "major": "臨床醫學英文班",
+    "hobbies": [
+      "游泳",
+      "唱歌"
+    ]
+  },
+  {
+    "name": "徐奇慧",
+    "gender": "女",
+    "school": "上海交通大學",
+    "major": "藥學",
+    "hobbies": [
+      "彈鋼琴"
+    ]
+  },
+  {
+    "name": "黃凱欣",
+    "gender": "女",
+    "school": "上海交通大學",
+    "major": "臨床醫學五年制（英文班）",
+    "hobbies": [
+      "畫畫", "閱讀"
+    ]
+  },
+  {
+    "name": "游思欣",
+    "gender": "女",
+    "school": "上海交通大學",
+    "major": "臨床醫學",
+    "hobbies": [
+      "閱讀"
+    ]
+  },
+  {
+    "name": "高柏霖",
+    "gender": "男",
+    "school": "上海交通大學",
+    "major": "臨床醫學",
+    "hobbies": [
+      "食飯", "訓覺"
+    ]
+  },
+  {
+    "name": "葉曉駿",
+    "gender": "男",
+    "school": "上海中醫藥大學",
+    "major": "康復物理治療",
+    "hobbies": [
+      "創作歌曲",
+      "打籃球"
+    ]
+  },
+  {
+    "name": "袁詩慧",
+    "gender": "女",
+    "school": "上海外國語大學",
+    "major": "新闻传播",
+    "hobbies": [
+      "攝影", "追星"
+    ]
+  },
+  {
+    "name": "張佳薇",
+    "gender": "女",
+    "school": "上海外國語大學",
+    "major": "英語",
+    "hobbies": [
+      "唱歌", "畫畫"
+    ]
+  },
+  {
+    "name": "湯堯穎",
+    "gender": "女",
+    "school": "上海外國語大學",
+    "major": "翻譯（多元方向）",
+    "hobbies": [
+      "聽歌", "寫書法"
+    ]
+  },
+  {
+    "name": "杜佳穎",
+    "gender": "女",
+    "school": "上海外國語大學",
+    "major": "英語教育",
+    "hobbies": [
+      "跳舞", "唱歌"
+    ]
+  },
+  {
+    "name": "謝鈺瀅",
+    "gender": "女",
+    "school": "上海外國語大學",
+    "major": "葡萄牙語",
+    "hobbies": [
+      "K-pop",
+      "睡覺"
+    ]
+  },
+  {
+    "name": "何潤心",
+    "gender": "女",
+    "school": "上海外國語大學",
+    "major": "翻譯",
+    "hobbies": [
+      "聽歌",
+      "煲劇"
+    ]
+  },
+  {
+    "name": "黃善怡",
+    "gender": "女",
+    "school": "上海外國語大學",
+    "major": "新聞學",
+    "hobbies": [
+      "畫畫"
+    ]
+  },
+  {
+    "name": "黃東城",
+    "gender": "男",
+    "school": "華東理工大學",
+    "major": "計算機科學與技術",
+    "hobbies": [
+      "唱歌"
+    ]
+  },
+  {
+    "name": "楊諾怡",
+    "gender": "女",
+    "school": "上海外國語大學",
+    "major": "葡文",
+    "hobbies": [
+      "海上活動"
+    ]
+  },
+  {
+    "name": "黃蕙淇",
+    "gender": "女",
+    "school": "上海外國語大學",
+    "major": "英文多元化",
+    "hobbies": [
+      "/"
+    ]
+  },
+  {
+    "name": "梁洛融",
+    "gender": "男",
+    "school": "上海體育大學",
+    "major": "運動康復",
+    "hobbies": [
+      "運動"
+    ]
+  },
+  {
+    "name": "郭曉泓",
+    "gender": "男",
+    "school": "上海交通大學",
+    "major": "臨床五年制（英語班）",
+    "hobbies": [
+      "籃球",
+      "聽歌"
+    ]
+  },
+  {
+    "name": "羅永燊",
+    "gender": "男",
+    "school": "復旦大學",
+    "major": "經濟管理",
+    "hobbies": [
+      "打球", "攝影"
+    ]
+  },
+  {
+    "name": "林錦謙",
+    "gender": "男",
+    "school": "復旦大學",
+    "major": "軟件工程",
+    "hobbies": [
+      "NBA"
+    ]
+  },
+  {
+    "name": "胡俊謙",
+    "gender": "男",
+    "school": "華東師範大學",
+    "major": "大數據",
+    "hobbies": [
+      "Gym", "旅行"
+    ]
+  },
+  {
+    "name": "朱益楷",
+    "gender": "男",
+    "school": "華東師範大學",
+    "major": "歷史學系",
+    "hobbies": [
+      "無"
+    ]
   }
 ]
