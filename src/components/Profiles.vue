@@ -35,7 +35,7 @@ const girlImg = "/images/girl.jpg"
 
 <style scoped>
 .card {
-    width: 80vw;
+    width: 90vw;
     margin-top: 5vh;
 
     /* 半透明玻璃卡片 */
