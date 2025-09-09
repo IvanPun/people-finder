@@ -2,7 +2,7 @@
     <el-input
     :model-value="modelValue"
     style="width: 240px"
-    placeholder="Please input"
+    placeholder="搜尋..."
     clearable
     class="input-box"
     @input="handleInput"
