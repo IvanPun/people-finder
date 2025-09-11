@@ -90,6 +90,12 @@ const girlImg = "/images/girl.jpg"
     object-fit: contain;
 }
 
+.icon .el-image img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
 .info {
     flex: 1;
     margin-left: 4%;
