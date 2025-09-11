@@ -73,6 +73,10 @@ const girlImg = "/images/girl.jpg"
     display: flex;
 }
 
+.icon{
+    flex-shrink: 0;
+}
+
 .icon .el-image {
     height: 100%;
     border-radius: 15px;
