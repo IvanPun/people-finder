@@ -8,9 +8,10 @@
                 <p>{{ profile.name }}</p>
                 <p>{{ profile.school }}</p>
                 <p>{{ profile.major }}</p>
-                
+
                 <div class="tags">
-                    <p>愛好：</p><tag v-for="value in profile.hobbies">{{ value }}</tag>
+                    <p>愛好：</p>
+                    <tag v-for="value in profile.hobbies">{{ value }}</tag>
                 </div>
             </div>
             <!-- <el-row :gutter="20">
@@ -73,14 +74,20 @@ const girlImg = "/images/girl.jpg"
     display: flex;
 }
 
-.icon{
+.icon {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 15px;
     flex-shrink: 0;
 }
 
 .icon .el-image {
+    width: auto;
     height: 100%;
     border-radius: 15px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .info {
