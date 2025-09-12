@@ -55,10 +55,11 @@ const girlImg = "/images/girl.jpg"
 .card-content {
     display: flex;
     align-items: center;
+    height: 15vh;
 }
 
 .icon {
-    height: 15vh;
+    height: 100%;
     object-fit: contain;
 }
 
