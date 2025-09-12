@@ -14,7 +14,7 @@
     </div>
     <!-- </div> -->
     <transition name="fade">
-      <button v-show="showBtn" class="back-to-top" @click="scrollToTop">↑</button>
+      <button v-show="showBtn" class="back-to-top" @click="scrollToTop"><el-icon><CaretTop /></el-icon></button>
     </transition>
   </div>
 
@@ -24,6 +24,7 @@
 import ResultArea from '@/components/ResultArea.vue';
 import search from '@/components/search.vue';
 import { ref, onMounted } from 'vue';
+import { CaretTop } from '@element-plus/icons-vue'
 
 const searching = ref(false);
 
@@ -140,7 +141,7 @@ onMounted(() => {
   position: fixed;
   bottom: 40px;
   right: 1rem;
-  background-color: #4CAF50;
+  background-color: #94a7ae;
   color: white;
   border: none;
   border-radius: 50%;
