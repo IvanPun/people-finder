@@ -61,6 +61,7 @@ const girlImg = "/images/girl.jpg"
 .icon {
     height: 100%;
     object-fit: contain;
+    border-radius: 15px;
 }
 
 .info {
