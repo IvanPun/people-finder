@@ -81,7 +81,6 @@ const girlImg = "/images/girl.jpg"
 }
 
 .icon {
-  flex-shrink: 0;
   height: 15vh;
 }
 
