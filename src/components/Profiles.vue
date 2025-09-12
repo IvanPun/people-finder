@@ -2,38 +2,17 @@
     <div class="card">
         <div class="inside-card">
             <div class="card-content">
-                <div class="icon">
-                    <el-image :src="profile.gender == '男' ? boyImg : girlImg" fit="contain" />
-                </div>
+                <img :src="profile.gender === '男' ? boyImg : girlImg" class="icon" />
                 <div class="info">
                     <p>{{ profile.name }}</p>
                     <p>{{ profile.school }}</p>
                     <p>{{ profile.major }}</p>
-                    <p style="font-size: 1rem;">愛好：</p>  
+                    <p style="font-size: 1rem;">愛好：</p>
                     <div class="tags">
-                        
                         <tag v-for="value in profile.hobbies">{{ value }}</tag>
                     </div>
                 </div>
             </div>
-            <!-- <el-row :gutter="20">
-                <el-col :span="auto">
-                    <div class="icon">
-                        <el-image :src="profile.gender == '男' ? boyImg : girlImg" fit="contain" />
-                    </div>
-                </el-col>
-                <el-col :span="16">
-                    <div class="info">
-                        <p>{{ profile.name }}</p>
-                        <p>{{ profile.school }}</p>
-                        <p>{{ profile.major }}</p>
-                        <div class="tags">
-                            <p style="font-size: 1rem;">愛好：</p>
-                            <tag v-for="value in profile.hobbies">{{ value }}</tag>
-                        </div>
-                    </div>
-                </el-col>
-            </el-row> -->
         </div>
     </div>
 </template>
@@ -70,28 +49,20 @@ const girlImg = "/images/girl.jpg"
     padding: 10px 20px;
 
     display: flex;
-    flex-direction: column;
     overflow: hidden;
-    box-sizing: border-box;
 }
 
 .card-content {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .icon {
-  height: 15vh;
-}
-
-.icon .el-image {
-  height: 100%;
-  width: auto;
-  object-fit: contain;
+    height: 15vh;
+    object-fit: contain;
 }
 
 .info {
-    flex: 1;
     margin-left: 20px;
     height: 100%;
     display: flex;
