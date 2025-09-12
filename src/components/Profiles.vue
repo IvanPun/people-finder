@@ -7,7 +7,7 @@
                     <p>{{ profile.name }}</p>
                     <p>{{ profile.school }}</p>
                     <p>{{ profile.major }}</p>
-                    <p style="font-size: 1rem;">愛好：</p>
+                    <p>愛好：</p>
                     <div class="tags">
                         <tag v-for="value in profile.hobbies">{{ value }}</tag>
                     </div>
@@ -73,7 +73,7 @@ const girlImg = "/images/girl.jpg"
 }
 
 .info p {
-    font-size: 1rem;
+    font-size: clamp(0.8rem, 1.5vh, 1.2rem);
 }
 
 .tags {
@@ -81,7 +81,6 @@ const girlImg = "/images/girl.jpg"
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin-top: 0.5rem;
     align-items: center;
 }
 </style>
