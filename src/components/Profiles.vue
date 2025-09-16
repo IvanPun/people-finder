@@ -4,10 +4,10 @@
             <div class="card-content">
                 <img :src="profile.gender === '男' ? boyImg : girlImg" class="icon" />
                 <div class="info">
-                    <p>{{ profile.name }}</p>
+                    <p class="name"><b>{{ profile.name }}</b></p>
                     <p>{{ profile.school }}</p>
                     <p>{{ profile.major }}</p>
-                    <p>愛好：</p>
+                    
                     <div class="tags">
                         <tag v-for="value in profile.hobbies">{{ value }}</tag>
                     </div>
@@ -69,12 +69,17 @@ const girlImg = "/images/girl.jpg"
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
+    gap: 3px;
 
 }
 
+.info .name{
+    font-size: 1.6rem;
+}
+
 .info p {
-    font-size: clamp(0.8rem, 1.5vh, 1.2rem);
+    font-size: clamp(1rem, 1.5vh, 2rem);
 }
 
 .tags {
