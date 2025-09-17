@@ -69,8 +69,7 @@ const girlImg = "/images/girl.jpg"
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    gap: 3px;
+    justify-content: space-between;
 
 }
 
