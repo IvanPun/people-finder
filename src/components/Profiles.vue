@@ -76,9 +76,9 @@ const girlImg = "/images/girl.jpg"
 
 }
 
-.info-text p{
+/* .info-text p{
     margin-bottom: 1%;
-}
+} */
 
 .info .name {
     font-size: 1.6rem;
